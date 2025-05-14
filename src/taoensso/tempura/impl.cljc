@@ -10,7 +10,7 @@
     ;; "%" (throw (ex-info "`%` is invalid, please use `%1`"))
     "%0" (throw (ex-info "`%0` is invalid, starts at `%1`" {:s s}))
     "%1" 0 "%2" 1, "%3" 2, "%4" 3, "%5" 4, "%6" 5, "%7" 6, "%8" 7, "%9" 8,
-    "%10" 9, "%11" 10, "%12" 1,
+    "%10" 9, "%11" 10, "%12" 11, "%13" 12,
     nil))
 
 (def ^:private re-clojure-arg #_#"%\d?" #"%\d{1,2}")
